@@ -16,7 +16,7 @@ module.exports = {
   },
   Records: async (req, res) => {
     try {
-      let rows = await a.getRocords(req.query.companyId);
+      let rows = await a.getRecords(req.query.companyId);
       return r.ReturnBind(res, rows);
     } catch (error) {
       return res.status(200).send(handler.errorHandler(error));

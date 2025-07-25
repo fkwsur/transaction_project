@@ -200,7 +200,7 @@ A.prototype.AccountingBind = async (bankFile, rulesFile, group_id) => {
   }
 };
 
-A.prototype.getRocords = async (data) => {
+A.prototype.getRecords = async (data) => {
   try {
     const get_company = await company.findOne({
       where: { company_code: data },
