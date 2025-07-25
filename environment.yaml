@@ -1,0 +1,10 @@
+ProductionVersion : 1 
+
+mysql:
+  MYSQL_DB : "commerce"
+  MYSQL_DB_USER : "root"
+  MYSQL_DB_HOST : "localhost"
+  MYSQL_DB_PASSWORD : "Zjajtm0724!"
+api_server:
+  PORT : "8081"
+  LOGINPAGE_URL : "http://localhost:3000/"
